@@ -1,0 +1,26 @@
+{
+    "name": "treslineas/argentine_cities",
+    "description": "Localidades y Provinicias Argentinas con coordenadas",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "3 Lineas",
+            "email": "info@3lineas.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TresLineas\\ArgentineCities\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TresLineas\\ArgentineCities\\ArgentineCitiesServiceProvider"
+            ]
+        }
+    }
+}
