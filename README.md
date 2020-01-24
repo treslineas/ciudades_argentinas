@@ -13,7 +13,7 @@
     composer require treslineas/argentine_cities
     ```
 
-2. Install the package using the command (For fresh laravel installations):
+2. Run the migrations:
 
     ```
     php artisan migrate
